@@ -16,11 +16,13 @@
         {
           "background": "#ef5350",
           "foreground": "#FFFB38",
+          "leading_diamond": "\ue0b6",
           "properties": {
             "root_icon": "\uf292"
           },
           "style": "diamond",
-          "template": "<parentBackground>\ue0b0</> \uf0e7 ",
+          //"template": "<parentBackground>\ue0b0</> \uf0e7 ",
+          "trailing_diamond": "\ue0b4 ",
           "type": "root"
         },
         {
