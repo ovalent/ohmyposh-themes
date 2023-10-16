@@ -26,6 +26,22 @@
           "type": "root"
         },
         {
+          "foreground": "#100e23",
+          "background": "#13f143",
+          "leading_diamond": "\ue0b6",
+          "style": "diamond",
+          "powerline_symbol": "\ue0b0",          
+          //"properties": {
+          //  "prefix": " \uE235 "
+          //},
+          "template": "\ue235 {{ .Venv }}",
+          "trailing_diamond": "\ue0b4 ",
+          "type": "python"
+          // INCLUDE THE FOLLOWING LINE IN $PROFILE TO HIDE THE ORIGINAL (venv):
+          // $env:VIRTUAL_ENV_DISABLE_PROMPT = 1
+        },
+
+        {
           "background": "#585858",
           "foreground": "#e4e4e4",
           "leading_diamond": "\ue0b6",
