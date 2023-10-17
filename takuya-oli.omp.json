@@ -44,7 +44,8 @@
           "leading_diamond": "\ue0b6",
           "powerline_symbol": "\ue0b0",
           "properties": {
-            "style": "full"
+            "style": "full",
+            "mapped_locations_enabled": false
           },
           "style": "diamond",
           "template": "{{ .Path }}",
